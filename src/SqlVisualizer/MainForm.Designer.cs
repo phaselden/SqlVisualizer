@@ -29,8 +29,6 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			this.label1 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.textTextBox = new System.Windows.Forms.TextBox();
 			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.closeButton = new System.Windows.Forms.Button();
@@ -43,31 +41,13 @@
 			this.tabPage2.SuspendLayout();
 			this.SuspendLayout();
 			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(14, 18);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(65, 15);
-			this.label1.TabIndex = 1;
-			this.label1.Text = "&Expression:";
-			// 
-			// textBox1
-			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.Location = new System.Drawing.Point(126, 15);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(788, 23);
-			this.textBox1.TabIndex = 2;
-			// 
 			// textTextBox
 			// 
 			this.textTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.textTextBox.Location = new System.Drawing.Point(3, 3);
 			this.textTextBox.Multiline = true;
 			this.textTextBox.Name = "textTextBox";
-			this.textTextBox.Size = new System.Drawing.Size(364, 261);
+			this.textTextBox.Size = new System.Drawing.Size(888, 555);
 			this.textTextBox.TabIndex = 5;
 			// 
 			// contextMenuStrip1
@@ -92,7 +72,7 @@
 			this.webBrowser.Location = new System.Drawing.Point(3, 3);
 			this.webBrowser.MinimumSize = new System.Drawing.Size(20, 20);
 			this.webBrowser.Name = "webBrowser";
-			this.webBrowser.Size = new System.Drawing.Size(888, 555);
+			this.webBrowser.Size = new System.Drawing.Size(888, 599);
 			this.webBrowser.TabIndex = 8;
 			// 
 			// tabControl1
@@ -102,10 +82,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.tabControl1.Controls.Add(this.tabPage1);
 			this.tabControl1.Controls.Add(this.tabPage2);
-			this.tabControl1.Location = new System.Drawing.Point(12, 56);
+			this.tabControl1.Location = new System.Drawing.Point(12, 12);
 			this.tabControl1.Name = "tabControl1";
 			this.tabControl1.SelectedIndex = 0;
-			this.tabControl1.Size = new System.Drawing.Size(902, 589);
+			this.tabControl1.Size = new System.Drawing.Size(902, 633);
 			this.tabControl1.TabIndex = 9;
 			// 
 			// tabPage1
@@ -114,7 +94,7 @@
 			this.tabPage1.Location = new System.Drawing.Point(4, 24);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage1.Size = new System.Drawing.Size(894, 561);
+			this.tabPage1.Size = new System.Drawing.Size(894, 605);
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "SQL";
 			this.tabPage1.UseVisualStyleBackColor = true;
@@ -125,7 +105,7 @@
 			this.tabPage2.Location = new System.Drawing.Point(4, 24);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(370, 267);
+			this.tabPage2.Size = new System.Drawing.Size(894, 561);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "Text";
 			this.tabPage2.UseVisualStyleBackColor = true;
@@ -139,8 +119,6 @@
 			this.ControlBox = false;
 			this.Controls.Add(this.tabControl1);
 			this.Controls.Add(this.closeButton);
-			this.Controls.Add(this.textBox1);
-			this.Controls.Add(this.label1);
 			this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Name = "MainForm";
 			this.Text = "SQL Visualizer";
@@ -151,14 +129,11 @@
 			this.tabPage2.ResumeLayout(false);
 			this.tabPage2.PerformLayout();
 			this.ResumeLayout(false);
-			this.PerformLayout();
 
 		}
 
 		#endregion
 
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.TextBox textTextBox;
 		private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
 		private System.Windows.Forms.Button closeButton;
