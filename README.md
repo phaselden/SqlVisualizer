@@ -11,5 +11,12 @@ This library is released under the GNU Affero GPL v3: http://www.gnu.org/license
 
 ## Installation for Visual Studio 2013
 
+**Note** *The source no longer works with VS2013. In order to get it to work, change the references to the  Microsoft.VisualStudio.DebuggerVisualizers assembly back to the 12.0 version.* 
+
 Copy `SqlVisualizer.dll` and `PoorMansTSqlFormatterLib35.dll` to:
 `C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Packages\Debugger\Visualizers`
+
+## Installation for Visual Studio 2015
+
+Copy `SqlVisualizer.dll` and `PoorMansTSqlFormatterLib35.dll` to:
+`C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Packages\Debugger\Visualizers`
