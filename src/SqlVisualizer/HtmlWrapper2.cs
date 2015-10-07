@@ -47,6 +47,7 @@ namespace SqlVisualizer
 ";
 
         public bool HTMLFormatted { get { return true; } }
+
         public string ErrorOutputPrefix { 
             get 
             { 

@@ -8,6 +8,8 @@ namespace ConsoleApplication1
 		[STAThread]
 		static void Main(string[] args)
 		{
+			//xcopy "$(SolutionDir)$(ProjectName)\$(OutDir)$(TargetFileName)" "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Packages\Debugger\Visualizers" /y
+
 			const string myString = @"-- Demo SQL from http://poorsql.com/
 	Create Table #ValueTable (Id nvarchar(5))
 declare @MonthIDs nvarchar(4000)
