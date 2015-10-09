@@ -181,3 +181,5 @@ $RECYCLE.BIN/
 # Visual Studio 2014 CTP
 **/*.sln.ide
 tools/SqlFormatterLibrary_35.1.5.1.zip
+SqlVisualizer2015.zip
+SqlVisualizer2013.zip
